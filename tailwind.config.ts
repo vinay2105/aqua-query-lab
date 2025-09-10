@@ -47,6 +47,13 @@ export default {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
+        ocean: {
+          primary: "hsl(215 85% 25%)",
+          secondary: "hsl(195 90% 35%)",
+          accent: "hsl(180 95% 45%)",
+          depth: "hsl(215 70% 20%)",
+          surface: "hsl(180 80% 70%)",
+        },
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
           foreground: "hsl(var(--sidebar-foreground))",
