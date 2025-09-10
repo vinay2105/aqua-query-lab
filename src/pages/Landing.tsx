@@ -19,17 +19,10 @@ const Landing = () => {
           </div>
           <div className="space-x-4">
             <Button 
-              variant="outline" 
-              onClick={() => navigate("/login")}
-              className="text-white border-white/30 hover:bg-white/10"
-            >
-              Login
-            </Button>
-            <Button 
-              onClick={() => navigate("/signup")}
+              onClick={() => navigate("/home")}
               className="bg-white text-ocean-primary hover:bg-white/90"
             >
-              Sign Up
+              Enter SeaSpeak
             </Button>
           </div>
         </header>
@@ -45,7 +38,7 @@ const Landing = () => {
           </p>
           <Button 
             size="lg" 
-            onClick={() => navigate("/signup")}
+            onClick={() => navigate("/home")}
             className="bg-white text-ocean-primary hover:bg-white/90 text-lg px-8 py-6"
           >
             Start Exploring
@@ -89,7 +82,7 @@ const Landing = () => {
           </p>
           <Button 
             size="lg" 
-            onClick={() => navigate("/signup")}
+            onClick={() => navigate("/home")}
             className="bg-white text-ocean-primary hover:bg-white/90"
           >
             Get Started Free

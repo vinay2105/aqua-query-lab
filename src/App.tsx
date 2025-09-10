@@ -5,9 +5,6 @@ import { ThemeProvider } from "@/components/theme-provider";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Landing from "./pages/Landing";
-import Login from "./pages/Login";
-import Signup from "./pages/Signup";
-import Verification from "./pages/Verification";
 import Home from "./pages/Home";
 import Settings from "./pages/Settings";
 import Chatbot from "./pages/Chatbot";
@@ -26,9 +23,6 @@ const App = () => (
         <BrowserRouter>
         <Routes>
           <Route path="/" element={<Landing />} />
-          <Route path="/login" element={<Login />} />
-          <Route path="/signup" element={<Signup />} />
-          <Route path="/verification" element={<Verification />} />
           <Route path="/home" element={<Home />} />
           <Route path="/settings" element={<Settings />} />
           <Route path="/chatbot" element={<Chatbot />} />
